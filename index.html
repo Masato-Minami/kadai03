@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="./css/blackjack.css" />
+  </head>
+  <body>
+    <h1>Black Jack</h1>
+    <div class="container">
+      <p>Dealer: <span id="com_sum"></span></p>
+      <table>
+        <tr id="com_card"></tr>
+      </table>
+    </div>
+
+    <div>
+      <p>Result: <span id="result">----</span></p>
+    </div>
+    <div class="container">
+      <p>You: <span id="your_sum"></span></p>
+      <table>
+        <tr id="your_card"></tr>
+      </table>
+    </div>
+    <div class="btn" id="play"><p>Play</p></div>
+    <div class="btn" id="hit"><p>Hit</p></div>
+    <div class="btn inactive" id="stand"><p>Stand</p></div>
+    <p>
+      Hit - 手札を一枚引く<br />
+      Stand - 勝負する
+    </p>
+    <button id="click-btn">Reset</button>
+    <div id="popup-wrapper">
+      <div id="popup-inside">
+        <div id="close">x</div>
+        <div id="message">
+          <h2>あの人気のマンガが...</h2>
+          <p>今なら80%オフ！</p>
+          <p>
+            <a href="https://gsacademy.jp/"
+              ><img src="./img/add1.png" alt="ad"
+            /></a>
+          </p>
+          <div class="btn inactive" id="reset">Reset</div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/blackjack.js"></script>
+  </body>
+</html>

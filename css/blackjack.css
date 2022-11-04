@@ -1,0 +1,95 @@
+body {
+  text-align: center;
+  background: #d3d3d3;
+  font-family: "Verdana", "メイリオ", "Meirio", "sans-serif";
+}
+
+.container {
+  height: 170px;
+  width: 300px;
+  padding: 5px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 3px auto;
+  width: 100px;
+  padding: 0.5px;
+  border-radius: 5px;
+  background: #dc143c;
+  box-shadow: 0 4px 0 #660000;
+  cursor: pointer;
+}
+.btn.inactive {
+  opacity: 0.8;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+.btn p {
+  font-weight: bold;
+  color: #fff;
+}
+td {
+  border: 1px #000000 solid;
+  border-collapse: separate;
+  border-spacing: 2px;
+  height: 50px;
+  width: 32px;
+}
+#your_sum,
+#com_sum {
+  font-weight: bold;
+}
+
+#click-btn {
+  display: block;
+  margin: 20px auto;
+  background-color: purple;
+  color: white;
+  border: 0;
+  padding: 6px 10px;
+}
+
+#popup-wrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+#popup-inside {
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  background: white;
+  margin: 10% auto;
+  padding: 20px;
+  position: relative;
+}
+
+#message a {
+  background: purple;
+  color: white;
+  text-decoration: none;
+  padding: 6px 10px;
+}
+
+img {
+  text-align: center;
+  width: 150px;
+  background: white;
+}
+
+#close {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  cursor: pointer;
+}
